@@ -6,24 +6,31 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Front-end for Outgassing</title>
 
-```markdown
-Syntax highlighted code block
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
 
-# Header 1
-## Header 2
-### Header 3
+    <!-- bring in jquery -->
+    <script src="https://code.jquery.com/jquery-2.0.3.js"></script>
+    <!-- include a script to put in the client code -->
+    <script src="javascripts/client.js"></script>
 
-- Bulleted
-- List
+  </head>
+  <body>
+    <!-- Drastically reduce the clutter in the jekyll generated static site for purposes of seeing the return data! -->
+    <div>Show contents of API call here:</div>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+    <!-- return data will go here -->
+    <pre></pre>
+  </body>
+</html>
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
